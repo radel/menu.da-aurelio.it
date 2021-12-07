@@ -5,7 +5,7 @@
         >
             <AurelioLogo></AurelioLogo>
         </header>
-        <div class="text-center py-4 text-pale-leaf-800">
+        <div class="text-center py-4 text-pale-leaf-800 text-2xl">
             <nuxt-link to="/">IT</nuxt-link>&nbsp;|&nbsp;
             <nuxt-link to="/en">EN</nuxt-link>
         </div>
