@@ -1,0 +1,18 @@
+/* ./assets/css/tailwind.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg-edelweiss {
+    background-image: url("assets/images/edelweiss.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+
+.bg-texture {
+   background-image: url("assets/images/texture.svg");
+   background-repeat: no-repeat;
+   background-position: center center; 
+   background-size: cover;
+}
