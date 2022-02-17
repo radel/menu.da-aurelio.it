@@ -1,6 +1,6 @@
 <template>
     <MenuPage>
-        <MenuLink link="/MENU-Restaurant-Da-Aurelio.pdf">menu</MenuLink>
+        <MenuLink link="/Menu-Da-Aurelio-2022-EN.pdf">menu</MenuLink>
         <MenuLink link="/Wine_List_Da-Aurelio_Winter-2021-2022.pdf">Wine list</MenuLink>
     </MenuPage>
 </template>
