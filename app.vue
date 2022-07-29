@@ -9,8 +9,8 @@
 
 <script lang="ts" setup>
 import './assets/css/tailwind.css'
-import("typeface-prata")
-import("typeface-inter")
+import "@fontsource/inter";
+import "@fontsource/prata";
 </script>
 
 <style lang="css">
