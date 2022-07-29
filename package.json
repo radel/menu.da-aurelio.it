@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "generate": "nuxt generate",
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs"
