@@ -1,6 +1,6 @@
 <template>
     <MenuPage>
-        <MenuLink link="/IT-2022-Da Aurelio-Menu-Estate.pdf">menu</MenuLink>
+        <MenuLink link="/Da-Aurelio-Menu-Inverno-2022-IT.pdf">menu</MenuLink>
         <MenuLink link="/lista-vini-BB-2022.pdf">lista vini</MenuLink>
         <Social>Seguici su</Social>
     </MenuPage>
