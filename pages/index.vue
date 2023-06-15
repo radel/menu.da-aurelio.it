@@ -1,11 +1,14 @@
 <template>
     <MenuPage>
-        <MenuLink link="/IT Da Aurelio Menu INVERNO 2022-23.pdf">menu</MenuLink>
-        <MenuLink link="/lista vini BB Da Aurelio.pdf">lista vini</MenuLink>
+        <MenuLink :link="`/it-menu.pdf?${rand(1000)}`">menu</MenuLink>
+        <MenuLink :link="`/it-vini.pdf?${rand(1000)}`">lista vini</MenuLink>
         <Social>Seguici su</Social>
     </MenuPage>
 </template>
 <script setup>
+const rand = function (max) {
+  return Math.floor(Math.random() * max);
+}
 useHead({
   title: 'Menu - Ristorante Da Aurelio - Passo Giau',
   // or, instead:
