@@ -3,7 +3,7 @@
         <MenuLink :link="`/en-menu.pdf?${rand(1000)}`">menu</MenuLink>
         <MenuLink :link="`/en-wine.pdf?${rand(1000)}`">Wine list</MenuLink>
         <Social>Follow us</Social>
-    </MenuPage>?
+    </MenuPage>
 </template>
 <script setup>
 const rand = function (max) {
@@ -18,8 +18,6 @@ useHead({
   meta: [
     { name: 'description', content: 'Menu - Restaurant Da Aurelio - Giau Pass' }
   ],
-  bodyAttrs: {
-  }
 })
 </script>
 

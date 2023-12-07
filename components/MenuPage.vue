@@ -6,7 +6,7 @@
             <AurelioLogo></AurelioLogo>
         </header>
         <div class="text-center py-4 text-pale-leaf-500 text-2xl hover:text-pale-leaf-600">
-            <nuxt-link to="/">ITA</nuxt-link>&nbsp;|&nbsp;
+            <nuxt-link to="/it">ITA</nuxt-link>&nbsp;|&nbsp;
             <nuxt-link to="/en">ENG</nuxt-link>
         </div>
         <div class="my-8 grid gap-4 grid-cols-1 max-w-lg mx-auto">
